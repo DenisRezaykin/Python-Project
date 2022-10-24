@@ -92,12 +92,39 @@
 
 # Задайте два числа. Найти наименьшее общее кратное этих чисел
 
-from math import gcd
-print("Введите два числа: ")
-a = int(input("a = "))
-b = int(input("b = "))
+# from math import gcd
+# print("Введите два числа: ")
+# a = int(input("a = "))
+# b = int(input("b = "))
+#
+# def nok(first, second):
+#     return(first*second) // gcd(first, second) #Данная функция возвращает наибольший общий делитель аргументов a, b.
+#     # Если a и b отличны от нуля, то результат функции есть наибольшее число, на которое a и b делятся нацело.
+# print(nok(a, b))
 
-def nok(first, second):
-    return(first*second) // gcd(first, second) #Данная функция возвращает наибольший общий делитель аргументов a, b.
-    # Если a и b отличны от нуля, то результат функции есть наибольшее число, на которое a и b делятся нацело.
-print(nok(a, b))
+
+# Задайте список из N натуральных чисел (0 до N), упорядоченных по возрастанию. Среди чисел не хватает одного, чтобы
+# выполнить условие A[i] -1 = A[i-1]. Найдите это число
+
+# from secrets import choice
+#
+#
+# def fill_list(num):
+#     array = [i for i in range(num + 1)]
+#     array.remove(choice(array)) # Функция choice () модуля в Python, выбирает случайный элемент. remove() list в Python удаляет элемент по заданному индексу из списка
+#     return array
+#
+#
+# def check_number(array):
+#     for i in range(1, len(array)):
+#         if array[i] - 1 != array[i - 1]:
+#             return array[i] - 1
+#     return -1
+#
+#
+# array = (fill_list(int(input("Enter the positive number: "))))
+# print(array)
+#
+# print(check_number(array))
+
+
